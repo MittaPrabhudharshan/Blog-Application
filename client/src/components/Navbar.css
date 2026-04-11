@@ -126,7 +126,7 @@
 
 .navbar .nav-links button {
   background: var(--gradient-secondary);
-  color: white;
+  color: rgb(232, 227, 227);
   border: 1px solid transparent;
   font-weight: 700;
   box-shadow: 0 2px 8px rgba(245, 87, 108, 0.3);
