@@ -10,17 +10,19 @@ const blogSchema = new mongoose. Schema({
 
                 description:{
                                     type: String,
-                                    required : true,
-                                    unique : true
+                                    required : true
                                     },
                 image:{
                                     type: String
                                     },
-                                    
+                published: {
+                    type: Boolean,
+                    default: true
+                },
 
                 //we are combining two schemas
                 user :{
-                         type : mongoose. Schema.type.ObjectId,
+                         type : mongoose.Schema.Types.ObjectId,
                          ref: "User",
                         required: true
 
