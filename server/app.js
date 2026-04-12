@@ -7,7 +7,8 @@ const connectDB = require("./config/db")
 dotenv.config()
 console.log('JWT_SECRET:', process.env.JWT_SECRET)
 const path = require("path");
-const app = express()
+const app = express();
+
 
 app.use(cors())
 app.use(express.json())
