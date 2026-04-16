@@ -1,5 +1,25 @@
+# node_modules/
+# client/node_modules/
+# server/node_modules/
+# .DS_Store
+# Node modules (both frontend & backend)
 node_modules/
-client/node_modules/
-server/node_modules/
-.DS_Store
+backend/node_modules/
+frontend/node_modules/
 
+# Environment variables (very important 🔒)
+.env
+backend/.env
+frontend/.env
+
+# Build folder
+frontend/build/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
