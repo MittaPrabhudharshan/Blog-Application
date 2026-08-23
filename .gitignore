@@ -27,3 +27,13 @@ npm-debug.log*
 # OS files
 .DS_Store
 Thumbs.db
+
+node_modules/
+.env
+*.env
+
+server/.env
+client/.env
+
+client/node_modules/
+server/node_modules/
